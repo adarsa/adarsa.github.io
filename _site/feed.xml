@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-31T03:05:20+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Yellow Psyche</title><subtitle>The synapse of the left and right brain and all the sparks in between.
+</subtitle><entry><title type="html">Mugal art the Python way</title><link href="http://localhost:4000/jekyll/update/2020/05/20/Mugal-art-and-Python.html" rel="alternate" type="text/html" title="Mugal art the Python way" /><published>2020-05-20T12:06:43+05:30</published><updated>2020-05-20T12:06:43+05:30</updated><id>http://localhost:4000/jekyll/update/2020/05/20/Mugal%20art%20and%20Python</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/20/Mugal-art-and-Python.html">&lt;p&gt;From the megalithic temples of Malta to indulgent study of symmetric propotions by the likes of Vitruvius and Da Vinci to the current study of hemispheres of brain by neuroscientists, our fascination and emotional pleasure from symmetric structures and ordered geometric shapes is undeniable.&lt;/p&gt;
+
+&lt;p&gt;This fascination is reflected in architectures around the world spanning millennias. One such example is Jali (from &lt;em&gt;Jala&lt;/em&gt; in Sanskrit, &lt;em&gt;Jalaka&lt;/em&gt; in Hindi) described in ancient Indian architecture texts and popularised through the Mugal architecture.  While originally carved in stone with much delegence, drawing them on paper with the ruler and protractors is a much satisfying endeavour, may be similar to the therapeutic use of Mandala art today(I havn’t tried one myself yet!), but may be more exciting if you love geometry.&lt;/p&gt;
+
+&lt;p&gt;After spending an hour drawing the neatly stacked nonagon on paper, I decided to program it. After all it is an iterative process of moving from one point in space to another with a fixed set of rules.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/mugal_art_and_python/image1.jpg&quot; alt=&quot;Paper drawing&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Turtle graphics is a popular way for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzeig, Seymour Papert and Cynthia Solomon in 1967.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;4-sided-regular-polygon&quot;&gt;4-sided regular polygon&lt;/h2&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video width=&quot;400&quot; height=&quot;300&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;/assets/posts/mugal_art_and_python/video1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;stacked-9-sided-regular-polygon&quot;&gt;Stacked 9-sided regular polygon&lt;/h2&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video width=&quot;600&quot; height=&quot;340&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;/assets/posts/mugal_art_and_python/video2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;mosaic-of-9-sided-regular-polygon-and-6-sided-regular-polygon&quot;&gt;Mosaic, of 9-sided regular polygon and 6-sided regular polygon&lt;/h2&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video width=&quot;800&quot; height=&quot;360&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;/assets/posts/mugal_art_and_python/video3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">From the megalithic temples of Malta to indulgent study of symmetric propotions by the likes of Vitruvius and Da Vinci to the current study of hemispheres of brain by neuroscientists, our fascination and emotional pleasure from symmetric structures and ordered geometric shapes is undeniable.</summary></entry></feed>
