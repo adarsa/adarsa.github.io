@@ -1,17 +1,4 @@
-# 'Bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-
-title: My Yellow Psyche
+title: Adarsa Sivaprasad
 email: adarsasprasad@gmail.com
 
 #Everything from getting started with Data Science, natural langugae generation to midnight art.
@@ -22,25 +9,52 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adarsa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: Adarsa
+  picture: /assets/about/image1.jpg
 
 github_username:  adarsa
 linkedin_profile: adarsasprasad
 
 
 # Build settings
-theme: minima #jekyll-theme-time-machine 
+#theme: minima #jekyll-theme-time-machine 
+theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
+paginate: 10
+paginate_path: /page:num/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+  # _projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: page
+      read_time: false
+
 
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/

@@ -1,0 +1,5 @@
+navigation_pages:
+  - about.markdown
+  - projects.md
+  - posts.md
+  - tags.md
