@@ -1,22 +1,31 @@
 ---
 layout: page
-title: About
+title: "About"
 permalink: /about/
 ---
 
 <!---![At Milford Sound,NZ](/assets/about/Dp.jpeg){:style="float: right;margin-right: 7px;margin-top: 7px;"}--->
+![At Milford Sound,NZ](/assets/about/dp.jpg){:style="display: block; margin-right:30px; margin-left:10px; float:right;"}\
+\
+\
+  \
+I am a Data Science consultant working on open-source platform [Project Sunbird](http://docs.sunbird.org/). I lead a team in developing Machine Learning solutions for the platform with a focus on *Natural Language Processing*. I also work on Data Analytics projects for [Diksha](https://diksha.gov.in/).
 
 
-![At Milford Sound,NZ](/assets/about/image1.jpg){:style="display: block; margin-right:30px; margin-left:10px; float:left;"}
+When not building data products, I likes to delve into linguistics, travel and paint.<br/>
+
+<br/>
+### CURRENT AND PAST AFFILIATIONS
+
+![Work Experience ><](/assets/about/experience.png){:style="display: float:centre;"}
 
 
-Iam currently Senior Data Scientist at StackRoute Labs. I work on designing and developing Machine Learning based solutions for [Sunbird](https://github.com/project-sunbird/sunbird-ml-workbench), an open source platform being developed by Ekstep. I lead the team in building end to end Machine Learning solutions in solving problems concerned with Learning such as Content Auto Tagging and Textbook Recommendation Engines. As an engineer, being able to translate the problem of numercy and literacy education to ML solutions and the impact it has created to millions of students and teachers in India excites me about my work. 
 
-I also work on supervised topic modelling for Digital Green, a project to empower smallholder farmers using technology as part of Societal platform initiative.
+### PUBLICATIONS AND PRESENTATIONS
 
-My interest in language processing has been sparked during my masters thesis work. I did my M.Tech from DAIICT, Gandhinagar where, I worked with the speech lab with a focus on Automatic speech recognition for Indian languages. My work was on feature extraction for detection of synthetic and natural speech. I combined my interest in chaos theory to look in nonlinear features of speech.
-
-Before working on Sunbird, I worked in an early stage startup, Rplus Analytics to develop a cloud based Demand Forecasting solution in retail domain. I have also worked as a Business and Technology Analyst with Deloitte India.
-
-When not building data products, I likes to delve into linguistics, travel and paint.
+- “NLP in creating reusable Digital assets for public good”, IEEE Deeptext.Ai, Bangalore 2019
+- “Text tagging as a service”, Grace Hopper Celebration India,2019
+- Speaker: Ekstep Developer conference (2019,20), IEEE(CS) GirlGeeks Bangalore
+- “Nonlinear analysis of Synthetic vs. Natural speech”, Proceedings of ICAPS 2014
+- “Chaotic modelling of Speech Signal”, IEEE Winter School on Speech and Audio Processing , 2013
 

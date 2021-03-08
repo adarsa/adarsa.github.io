@@ -3,6 +3,11 @@ layout: post
 title:  "Mugal art the Python way"
 date:   2020-05-20 12:06:43 +0530
 categories: jekyll update
+tags:
+  - Jali
+  - Turtle graphics
+  - Symmetry
+  - Architecture
 ---
 
 From the megalithic temples of Malta to indulgent study of symmetric propotions by the likes of Vitruvius and Da Vinci to the current study of hemispheres of brain by neuroscientists, our fascination and emotional pleasure from symmetric structures and ordered geometric shapes is undeniable. 
@@ -13,29 +18,33 @@ After spending an hour drawing the neatly stacked nonagon on paper, I decided to
 
 ![Paper drawing](/assets/posts/mugal_art_and_python/image1.jpg)
 
+Turtle graphics on Python seemed the right tool.
 
-> Turtle graphics is a popular way for introducing programming to kids. It was part of the original Logo programming language developed by Wally Feurzeig, Seymour Papert and Cynthia Solomon in 1967.
+(Fun Fact: Turtle was part of the original Logo programming language developed by Wally Feurzeig, Seymour Papert and Cynthia Solomon in 1967.)
 
+What I needed to replicate the pattern from paper was a combination of 9-sided regular polygon and 6-sided regular polygon. Some iterations until the Jala was perfected:
 
-## 4-sided regular polygon
+#### 4-sided regular polygon
 <figure class="video_container">
   <video width="400" height="300" autoplay loop >
     <source src="/assets/posts/mugal_art_and_python/video1.mp4" type="video/mp4">
   </video>
 </figure>
 
-## Stacked 9-sided regular polygon
+#### Stacked 9-sided regular polygon
 <figure class="video_container">
   <video width="600" height="340" autoplay loop >
     <source src="/assets/posts/mugal_art_and_python/video2.mp4" type="video/mp4">
   </video>
 </figure>
 
-## Mosaic, of 9-sided regular polygon and 6-sided regular polygon
+
+And Finally:
+#### Mosaic, of 9-sided regular polygon and 6-sided regular polygon
 <figure class="video_container">
   <video width="800" height="360" autoplay loop >
     <source src="/assets/posts/mugal_art_and_python/video3.mp4" type="video/mp4">
   </video>
 </figure>
 
-
+Wandering further into the edges of symmetry, it is fascinating how pentagonal and decagonal *Girih-tile* pattern (an aperiodic tilling similar to famous *Penrose tiling* ) is found in  Darb-i Imam shrine, Iran, built in 1453 C.E. Seems the architects found it in aesthics before mathematicians formulated it!

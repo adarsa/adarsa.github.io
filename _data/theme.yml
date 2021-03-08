@@ -1,5 +1,10 @@
+# Google Fonts
+google_fonts:
+  - name: "Fira Sans"
+    weights: "400,400i,600,600i"
+
 navigation_pages:
   - about.markdown
   - projects.md
   - posts.md
-  - tags.md
+  - tags.markdown

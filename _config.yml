@@ -2,7 +2,6 @@ title: Adarsa Sivaprasad
 email: adarsasprasad@gmail.com
 
 #Everything from getting started with Data Science, natural langugae generation to midnight art.
-
 description: > # this means to ignore newlines until "baseurl:"
   The synapse of the left and right brain and all the sparks in between.
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -11,20 +10,24 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adarsa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Adarsa
-  picture: /assets/about/image1.jpg
+  picture: /assets/about/dp.jpg
 
 github_username:  adarsa
 linkedin_profile: adarsasprasad
 
+# Liquid
+liquid:
+  error_mode: strict
 
 # Build settings
-#theme: minima #jekyll-theme-time-machine 
-theme: jekyll-theme-basically-basic
+markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-algolia
 feed:
   path: atom.xml
 
@@ -37,6 +40,10 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+  #tags:
+  #  output: true
+  # permalink: /tags/:name/
+
 defaults:
   # _posts
   - scope:
@@ -48,10 +55,11 @@ defaults:
   # _projects
   - scope:
       path: "_projects"
-      type: projects
+      type: posts
     values:
-      layout: page
+      layout: post
       read_time: false
+      show_date: false
 
 
 # Exclude from processing.
@@ -61,8 +69,3 @@ defaults:
 #   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
